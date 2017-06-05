@@ -253,8 +253,9 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px
 }
 header .intro-text .intro-heading {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    font-style: italic;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
@@ -273,8 +274,8 @@ header .intro-text .intro-heading {
         margin-bottom: 25px
     }
     header .intro-text .intro-heading {
-        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-        text-transform: uppercase;
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: italic;
         font-weight: 700;
         font-size: 75px;
         line-height: 75px;
@@ -763,7 +764,7 @@ margin-bottom: 30px;
 }
 
 .bg-met {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(../img/engagement/DRP4436-Edit.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(../img/engagement/DRP4436-Edit.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -792,7 +793,7 @@ display: none
 
 .carousel-pics {
   height: 800px;
-  width: 800px;
+  width: 1000px;
   overflow: hidden;
   object-fit: contain;
   margin: auto;
@@ -808,7 +809,7 @@ display: none
 }
 .carousel-inner .item img {
   max-height: 800px;
-  max-width: 800px;
+  max-width: 1000px;
   position: absolute;
   left: 0;
   right: 0;
@@ -904,6 +905,9 @@ height: auto;
     }
 }
 
+.box {
+    padding: 0 20px 0 50px;
+}
 
 
 
